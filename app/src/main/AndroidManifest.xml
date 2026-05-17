@@ -8,6 +8,7 @@
         android:required="false" />
 
     <!-- Permissions -->
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -27,7 +28,7 @@
         <!-- Google Maps API Key (Essential for MapScreen) -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="PASTE_YOUR_ACTUAL_GOOGLE_MAPS_KEY_HERE" />
+            android:value="AIzaSyChb01g6RF11NRtNee7omTYbIU3sd8-PoU" />
 
         <!-- FIXED: MainActivity MUST have exported="true" because it has an intent-filter -->
         <activity

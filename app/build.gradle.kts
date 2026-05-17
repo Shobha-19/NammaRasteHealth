@@ -36,6 +36,7 @@ android {
     }
 }
 dependencies {
+    implementation("org.osmdroid:osmdroid-android:6.1.18")
     // 1. The Firebase BOM (Bill of Materials) - Manages all Firebase versions
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
 
